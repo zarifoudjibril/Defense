@@ -1,0 +1,61 @@
+body {
+	margin: 0 auto;
+	width: 85%;
+}
+
+.menu > h1 {
+	text-align: center;
+	padding: 2em;
+}
+
+.pics img {
+	width: 1000px;
+
+	margin-left: 7em;
+}
+
+main h3 {
+	text-align: center;
+	font-family: Roboto;
+	letter-spacing: 0.1em;
+}
+.logo {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.logo img {
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.menu > h1 {
+	color: rgb(78, 124, 140);
+	font-family: Lora;
+	margin-bottom: 1em;
+}
+
+.logo h2 span {
+	color: rgb(176, 36, 24);
+}
+
+ul {
+	width: 100%;
+	display: table;
+	text-align: center;
+}
+ul li {
+	display: inline-block;
+	float: none;
+}
+
+ul li a {
+	font-weight: 700;
+	margin: 0.5em;
+	text-decoration: none;
+	color: rgb(184, 171, 94);
+}
+
+ul li a:hover {
+	color: rgb(176, 36, 24);
+}
