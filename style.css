@@ -23,6 +23,7 @@ main h3 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
+
 .logo img {
 	width: 150px;
 	display: flex;
